@@ -16,7 +16,7 @@ class Api::V1::UsersController < ApplicationController
     end
 
     def create
-        user = User.create(username: params[:username], password_digest: params[:password])
+        user = User.create(username: params[:username], password: params[:password])
         render json: { id: user.id, username: user.username}
     end
 end
