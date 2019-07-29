@@ -14,4 +14,9 @@ class Api::V1::UsersController < ApplicationController
         user.destroy
         render json: {}, status: :no_content
     end
+
+    def create
+        user = User.create(username: params[:username], password_digest: params[:password])
+        render json: { id: user.id, username: user.username}
+    end
 end
