@@ -21,6 +21,9 @@ class Api::V1::AuthController < ApplicationController
       render json: { error: 'Not Authorized'}, status: 401
     end
   end
+
+
+  
 end
 
 
