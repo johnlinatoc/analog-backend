@@ -11,12 +11,16 @@ class Api::V1::AuthController < ApplicationController
   end
 
   def show
-    token = request.headers[:Authorization]
-    decoded_token = JWT.decode(token, 'app_secret', true, { algorithm: 'HS256' })
-    id = decoded_token.first['id']
+    jwt_token = request.headers[:Authorization]
+    decode_token = JWT.decode(jwt_token, 'app_secret', true, { algorithm: 'HS256' })
+
+    id = decode_token.first['id']
     user = User.find(id)
+
+    output = { id: user.id, username: user.username, token: jwt_token }
+    
     if user
-      render json: { id: user.id, username: user.username, token: token }
+      render json: output
     else
       render json: { error: 'Not Authorized'}, status: 401
     end

@@ -6,7 +6,9 @@ Rails.application.routes.draw do
       # resources :users
       post '/auth', to: 'auth#create'
       get '/current_user', to: 'auth#show'
+      get '/current_user/:id', to: 'users#show'
       patch '/current_user/:id', to: 'users#update'
+      delete '/current_user/:id', to: 'users#destroy'
     end
   end
 end
