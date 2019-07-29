@@ -1,4 +1,4 @@
-class BoardgamesController < ApplicationController
+class Api::V1::BoardgamesController < ApplicationController
     def index
         boardgames = Boardgame.all
         render json: boardgames
@@ -8,4 +8,5 @@ class BoardgamesController < ApplicationController
         boardgame = Boardgame.find_by(id: params[:id])
         render json: boardgame
     end
+
 end
