@@ -1,7 +1,5 @@
 class Api::V1::UsersController < ApplicationController
-    def show
-        byebug
-    end
+  
     
     def update
         user = User.find_by(id: params[:id])
