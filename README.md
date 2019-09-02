@@ -1,5 +1,7 @@
-# Analog - Backend
-Personal budgeting app that allows users to create a monthly budget and display all the necessary information in their dashboard. Users can also add expenses and the dashboard's user interface dynamically changes upon user entries with different relevant indicators. Users also have a MyBudget section that showcases their spending habits to help them make wiser decisions. 
+# Analog (Backend)
+Personal budgeting app that allows users to create a monthly budget and display all the necessary information in their dashboard. Users can also add expenses and the dashboard's user interface dynamically changes upon user entries with different relevant indicators. Users also have a MyBudget section that showcases their spending habits to help them make wiser decisions.
+
+[Analog (Frontend)](https://github.com/johnlinatoc/analog-frontend)
 
 ## Motivation
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
