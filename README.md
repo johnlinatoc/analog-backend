@@ -1,10 +1,13 @@
 # Analog (Backend)
-Personal budgeting app that allows users to create a monthly budget and display all the necessary information in their dashboard. Users can also add expenses and the dashboard's user interface dynamically changes upon user entries with different relevant indicators. Users also have a MyBudget section that showcases their spending habits to help them make wiser decisions.
+Personal budgeting app that allows users to create a monthly budget and dynamically displays all the necessary information in their dashboard and on their MyBudget page.
 
 Click here for project's frontend: [Analog (Frontend)](https://github.com/johnlinatoc/analog-frontend)
+Click here for a video demo: [Analog Video Demo](https://www.youtube.com/watch?v=2tAANzijr40)
 
 ## Motivation
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+
+After struggling with my own financial illiteracy and discovering a book, [Financial Peace](https://books.google.com/books/about/Financial_Peace_Revisited.html?id=3BhiXcAYgj4C&printsec=frontcover&source=kp_read_button#v=onepage&q&f=false), that helped me understand how to make wiser decisions, I wanted to make a tool that could hopefully help others too. This budgeting app was designed to help others make a budget as easy as possible in the most clearest way I could design. My goal was to allow users to have as little friction as possible when entering expenses and also to have all the necessary info as easy to read as possible.
 
 ## Screenshots
 Include logo/demo screenshot etc.
@@ -17,10 +20,9 @@ Include logo/demo screenshot etc.
 - [Victory Charts for data visualization](https://formidable.com/open-source/victory/)
 
 ## Features
-What makes your project stand out?
 
-## Code Example
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+Users can add expenses and the dashboard's user interface dynamically changes upon user entries with different relevant indicators.
+Users also have a MyBudget section that showcases their spending habits to help them make wiser decisions.
 
 ## Installation
 Provide step by step series of examples and explanations about how to get a development env running.
